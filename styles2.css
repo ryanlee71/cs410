@@ -1,0 +1,113 @@
+/* Overriding default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Header styles */
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#header h1 {
+    font-size: 2.5em;
+}
+
+/* Menu styles */
+#menu {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#menu li a:hover {
+    text-decoration: underline;
+}
+
+/* Content styles */
+#content {
+    padding: 20px;
+    flex: 1; /* Tried to make it so that it would fill up the whole space, will work on this one again */
+}
+
+/* Footer styles */
+#footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    flex-shrink: 0;
+    margin-top: auto; /* Wanted the footer to stay at the bottom of the screen, will also work on this one again */
+}
+
+/* Img Styles */
+#content img{
+    width: 200px;
+    height: 200px
+    
+}
+.org-chart {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .org-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .org-content {
+    margin-bottom: 10px;
+  }
+  
+  .org-children {
+    display: flex;
+  }
+  
+  .org-line {
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: 10px;
+    background: #000;
+    left: calc(50% - 1px);
+  }
+  
