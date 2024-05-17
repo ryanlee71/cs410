@@ -11,7 +11,7 @@
     <meta name="keywords" content="Module 1, Foundations, Assignment" />
     <meta name="author" content="Ryan Lee" />
     <title>Module 1 Foundations Assignment</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles2.css" />
 </head>
 <body>
     <div id="header">

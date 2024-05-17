@@ -11,7 +11,7 @@
     <meta name="keywords" content="kcgamingteam, professional, gaming" />
     <meta name="author" content="Ryan Lee" />
     <title>Kc's Gaming Team</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles2.css" />
 </head>
 <body>
     <div id="header">

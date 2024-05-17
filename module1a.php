@@ -11,7 +11,7 @@
     <meta name="keywords" content="esports, professional, competitive" />
     <meta name="author" content="Ryan Lee" />
     <title>Module 1 Variables Assignment</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles2.css" />
 </head>
 <body>
     <div id="header">
